@@ -1,0 +1,3 @@
+<p *ngIf="product && product.stock > 0">
+  <button (click)="notify.emit()" type="button">Purchase</button>
+</p>
